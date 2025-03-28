@@ -1,0 +1,57 @@
+2025-03-27 16:01:09,528 - INFO - === 开始数据录入任务 ===
+2025-03-27 16:01:09,531 - ERROR - 数据加载失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 16:01:09,531 - CRITICAL - 数据处理流程失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 17:15:44,681 - INFO - === 开始数据处理 ===
+2025-03-27 17:15:44,684 - ERROR - 数据加载失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 17:15:44,684 - CRITICAL - 流程执行失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 17:32:25,947 - INFO - === 开始数据处理 ===
+2025-03-27 17:32:25,951 - ERROR - 数据加载失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 17:32:25,951 - CRITICAL - 流程执行失败: Missing column provided to 'parse_dates': 'last_updated'
+2025-03-27 17:38:49,868 - INFO - === 开始数据处理 ===
+2025-03-27 17:38:49,878 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:38:50,042 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/YcQ7bh4akant92s0X5fcU0xonwg/tables/blkyCAWcQ56NOsUF/records/batch_create
+2025-03-27 17:38:50,043 - INFO - === 处理完成 ===
+2025-03-27 17:42:58,997 - INFO - === 开始数据处理 ===
+2025-03-27 17:42:59,005 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:42:59,181 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:42:59,182 - INFO - === 处理完成 ===
+2025-03-27 17:50:14,253 - INFO - === 开始数据处理 ===
+2025-03-27 17:50:14,257 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:50:14,401 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:50:14,402 - INFO - === 处理完成 ===
+2025-03-27 17:50:30,484 - INFO - === 开始数据处理 ===
+2025-03-27 17:50:30,489 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:50:30,647 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:50:30,647 - INFO - === 处理完成 ===
+2025-03-27 17:53:09,757 - INFO - === 开始数据处理 ===
+2025-03-27 17:53:09,760 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:53:09,940 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:53:09,941 - INFO - === 处理完成 ===
+2025-03-27 17:56:47,262 - INFO - === 开始数据处理 ===
+2025-03-27 17:56:47,270 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:56:47,441 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:56:47,441 - INFO - === 处理完成 ===
+2025-03-27 17:57:34,629 - INFO - === 开始数据处理 ===
+2025-03-27 17:57:34,636 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:57:34,797 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:57:34,798 - INFO - === 处理完成 ===
+2025-03-27 17:57:59,901 - INFO - === 开始数据处理 ===
+2025-03-27 17:57:59,905 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 17:58:00,065 - ERROR - 飞书数据写入失败: 400 Client Error: Bad Request for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 17:58:00,066 - INFO - === 处理完成 ===
+2025-03-27 18:02:33,614 - INFO - === 开始数据处理 ===
+2025-03-27 18:02:33,631 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 18:14:22,039 - INFO - === 开始数据处理 ===
+2025-03-27 18:14:22,056 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 18:18:21,483 - INFO - === 开始数据处理 ===
+2025-03-27 18:18:21,500 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 18:18:41,051 - ERROR - 飞书数据写入失败: 403 Client Error: Forbidden for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UCXpbsxUeaxpResIiOIcH9FQnrh/tables/tbl9LksRgCNZ2W9U/records/batch_create
+2025-03-27 18:18:43,222 - INFO - === 处理完成 ===
+2025-03-27 22:11:10,814 - INFO - === 开始数据处理 ===
+2025-03-27 22:11:10,822 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 22:11:11,105 - ERROR - 飞书数据写入失败: 403 Client Error: Forbidden for url: https://open.feishu.cn/open-apis/bitable/v1/apps/UstrbtZ49a8s0esQFcVcpGM3nEg/tables/tblh7kc4P4U9ZsOt/records/batch_create
+2025-03-27 22:11:11,106 - INFO - === 处理完成 ===
+2025-03-27 22:27:22,412 - INFO - === 开始数据处理 ===
+2025-03-27 22:27:22,415 - INFO - 成功加载数据，共 3 条记录
+2025-03-27 22:27:22,682 - ERROR - 飞书数据写入失败: 403 Client Error: Forbidden for url: https://open.feishu.cn/open-apis/bitable/v1/apps/Ej0TbHlc2a93oWs08xrcvfrDnKc/tables/tbl5t6Ah898uaapm/records/batch_create
+2025-03-27 22:27:22,683 - INFO - === 处理完成 ===
