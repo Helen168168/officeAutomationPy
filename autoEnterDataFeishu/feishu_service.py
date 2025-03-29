@@ -1,7 +1,7 @@
 import requests
 import logging
 from typing import List, Dict
-from officeAutomationPy.autoEnterData.config import Config
+from officeAutomationPy.autoEnterDataFeishu.config import Config
 
 class FeishuService:
     def __init__(self):
