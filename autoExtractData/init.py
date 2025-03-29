@@ -1,5 +1,6 @@
 '''
  网页抓取：自动从网站提取数据
+ 功能暂时不可用，我还未掌握爬取的法律边界，慎重而行
 '''
 
 import scrapy
@@ -24,11 +25,11 @@ class ScrollNewsSpider(scrapy.Spider):
 
     def parse(self, response):
         # 提取当前页面的新闻数据
-        for article in response.css('.course-detail'):
+        for article in response.css('.div_wrap'):
             yield {
-                'title': article.css('.course-title').get().strip(),
-                'learnedNumber': article.css('.course-num').get(),
-                'price': article.css('.course-price').get()
+                'title': article.css('.title').get().strip(),
+                'number': article.css('.num').get(),
+                'price': article.css('.price').get()
             }
 
     #     # 模拟滚动加载更多数据
@@ -49,7 +50,7 @@ class ScrollNewsSpider(scrapy.Spider):
     #     script_data = response.xpath('//script[contains(., "loadMore")]/text()').get()
     #     if script_data and "apiUrl" in script_data:
     #         # 这里需要根据实际JavaScript代码提取URL
-    #         return "https://time.geekbang.org/serv/v3/product/infos"
+    #         return "https://api"
 
 # 运行爬虫
 process = CrawlerProcess()
