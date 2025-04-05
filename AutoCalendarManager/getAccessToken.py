@@ -5,8 +5,8 @@
 from officeAutomationPy.baseModule.request import Request
 from officeAutomationPy.baseModule.cacheData import GlobalCache
 cache = GlobalCache()
-app_id = "" # 自建应用ID
-app_secret = "" # 自建应用密钥
+app_id = ""  # 自建应用ID
+app_secret = ""  # 自建应用密钥
 headers = {"Content-Type": "application/json"}
 data = {
     "app_id": app_id,
