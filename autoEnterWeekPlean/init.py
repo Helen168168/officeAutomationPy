@@ -1,3 +1,7 @@
+"""
+每周日自动创建周计划
+使用pandas复制数据，用openpyxl处理合并单元格
+"""
 
 import os
 import cn2an
@@ -7,9 +11,6 @@ from copy import copy
 from openpyxl import load_workbook
 from datetime import datetime, timedelta
 
-"""
-   使用pandas复制数据，用openpyxl处理合并单元格
-"""
 def autoEnterData(source_path, target_path):
     # 检查源文件是否存在
     if not os.path.exists(source_path):
@@ -102,22 +103,25 @@ def getNextDateRange():
     today = datetime.now().date()
     # 计算下周一（当前日期的下周一）
     next_monday = today + timedelta(days=(7 - today.weekday()))
+
     # 计算下周日（下周一 + 6天）
     next_sunday = next_monday + timedelta(days=6)
+
+    next_monday = next_monday.strftime('%Y/%m/%d')
+    next_sunday = next_sunday.strftime('%Y/%m/%d')
+
     return f'{next_monday}-{next_sunday}'
 
 # 每周日晚上九点自动执行
 def autoExecute():
-    print("自动导入服务已启动...")
-    print("将在每周日自动执行导入任务")
     schedule.every().sunday.at("21:00").do(autoEnterData)
     while True:
         if(is_sunday() and datetime.now().hour == 21 and datetime.now().minute < 2):
             autoEnterData(source_path, target_path)
             time.sleep(60)  # 避免一小时内重复执行
-
         schedule.run_pending()
         time.sleep(60) # 每分钟检查一次
 
-autoExecute()
+# autoExecute()
 
+autoEnterData(source_path, target_path)
